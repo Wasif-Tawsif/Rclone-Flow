@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: rc4576
+    name: rc4176
     env: docker
     region: singapore
     plan: free
