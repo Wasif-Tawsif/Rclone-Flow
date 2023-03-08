@@ -9,8 +9,7 @@ fi
 
 echo "[INFO] Starting Rclone"
 rclone rcd --rc-web-gui \
-  --rc-web-gui-no-open-browser \
-  --rc-addr rc4576.onrender.com:10000 \
+  --rc-addr 0.0.0.0:$PORT \
   --rc-user $USERNAME \
   --rc-pass $PASSWORD \
   --rc-allow-origin "https://elonh.github.io"
