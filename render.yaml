@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Rclone-Flow
+    name: rc4576
     env: docker
     region: singapore
     plan: free
