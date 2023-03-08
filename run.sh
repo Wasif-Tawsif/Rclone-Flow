@@ -9,6 +9,7 @@ fi
 
 echo "[INFO] Starting Rclone"
 rclone rcd --rc-web-gui \
+  --rc-web-gui-force-update \
   --rc-web-gui-no-open-browser \
   --rc-addr 0.0.0.0:$PORT \
   --rc-user $USERNAME \
